@@ -50,5 +50,24 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
+    },
+    framework: {
+        area: 'frontend',
+        name: 'TemplateMonster/framework',
+        locale: 'en_US',
+        files: [
+            'css/source/style'
+        ],
+        dsl: 'sass'
+    }
+    ,
+    theme762: {
+        area: 'frontend',
+        name: 'TemplateMonster/theme762',
+        locale: 'en_US',
+        files: [
+            'css/source/theme-styles'
+        ],
+        dsl: 'sass'
     }
 };

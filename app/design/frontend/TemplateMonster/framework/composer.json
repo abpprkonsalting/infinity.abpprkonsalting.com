@@ -16,5 +16,18 @@
         "files": [
             "registration.php"
         ]
-    }
-}
+    },
+    "main": "gulpfile.js",
+    "dependencies": {
+        "path": "^0.12.7"
+      },
+      "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-notify": "^3.0.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^3.1.0"
+      },
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      }
+} 
